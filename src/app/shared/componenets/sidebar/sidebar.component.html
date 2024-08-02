@@ -1,0 +1,42 @@
+<nav class="sidebar">
+    <div class="logo">
+        <a [routerLink]="'summary'">
+            <img src="../../../../assets/img/logo.png" alt="logo" style="width:65%; height:auto;"/>
+        </a>
+    </div>
+    <div class="navigation">
+        <ul class="list-unstyled">
+            <li [routerLink]="'summary'" routerLinkActive="active">
+                <a>COVID-19 Summary</a>
+            </li>
+            <li [routerLink]= "'country'" routerLinkActive="active">
+                <a>COVID-19 By Country</a>
+            </li>
+            <li [routerLink]="'live'" routerLinkActive="active">
+                <a>COVID-19 Live</a>
+            </li>
+
+            <li [routerLink]="'influenza-summary'" routerLinkActive="active">
+                <a>Influenza Summary</a>
+            </li>
+
+            <li [routerLink]="'influenza-country'" routerLinkActive="active">
+                <a>Influenza  By Country</a>
+            </li>
+
+            <li [routerLink]="'influenza-live'" routerLinkActive="active">
+                <a>Influenza Live</a>
+            </li>
+
+
+            <li [routerLink]="'alert'" routerLinkActive="active">
+                <a>Alerts</a>
+            </li>
+
+            <li [routerLink]="'awareness'" routerLinkActive="active">
+                <a>Awareness</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>

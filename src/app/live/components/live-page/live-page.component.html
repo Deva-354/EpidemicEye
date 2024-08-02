@@ -1,0 +1,40 @@
+<!-- live-page.component.html -->
+<div>
+    <h1 class="title">Predict Next Day's Cases</h1>
+  
+       <!-- Display the prediction result -->
+    <div *ngIf="predictedCases !== null">
+      <h2 class="prediction-text">Predicted Cases for Tomorrow: {{ predictedCases }}</h2>
+    </div>
+
+      <!-- Dropdown for selecting a country -->
+      <label id = "countryLabel" for="country" class="dropdown-label">Select a Country:</label>
+      <select id="country" class="dropdown-select" [(ngModel)]="selectedCountry">
+        <option *ngFor="let country of countries" [value]="country.name">
+          {{ country.name }}
+        </option>
+      </select>
+
+    
+    <!-- Input fields for user data -->
+    <label id="casesLabel" for="cases">Cases Today:</label>
+    <input type="number" id="cases" [(ngModel)]="cases">
+  
+    <label id="deathsLabel" for="deaths">Deaths Today:</label>
+    <input type="number" id="deaths" [(ngModel)]="deaths">
+  
+    <label id="recoveriesLabel" for="recoveries">Recoveries Today:</label>
+    <input type="number" id="recoveries" [(ngModel)]="recoveries">
+  
+    <!-- Button to trigger the prediction -->
+    <button (click)="runPredictiveModel()">Predict Cases</button>
+  
+    <p class="user-note"><strong>Note: </strong>The cases displayed intially is the predicted number of cases globally. The countries listed in the drop down menu are countries that have the highest COVID-19 cases record worldwide. Select a country and begin your COVID-19 predictions today!</p>
+    
+
+    <div *ngIf="responseMessage" class="response-message">
+      <h3>{{ responseMessage }}</h3>
+    </div>
+
+  </div>
+  

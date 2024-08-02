@@ -1,0 +1,56 @@
+<p>Hover over the bars to see number of cases!</p>
+<!-- <div id="divChart">
+    <canvas id="chart"></canvas>
+ </div> -->
+ 
+ <!-- New code -->
+ <!-- <button (click)="add()">Add Point</button>
+ <div [chart]="chart"></div> -->
+
+
+<!-- <highcharts-chart
+ *ngIf="chartOptions"
+ [Highcharts]="highcharts"
+ [options]="chartOptions"
+ style="height: 100%; width: 100%; display: block;">
+</highcharts-chart> -->
+
+<!-- <div style="display: block;">
+   <ngx-charts-bar-vertical
+     [view]="view"
+     [scheme]="'cool'"
+     [results]="data"
+     [gradient]="false"
+     [xAxis]="xAxis"
+     [yAxis]="yAxis"
+     [legend]="showLegend"
+     [showXAxisLabel]="showXAxisLabel"
+     [showYAxisLabel]="showYAxisLabel"
+     [xAxisLabel]="xAxisLabel"
+     [yAxisLabel]="yAxisLabel"
+     [animations]="animations">
+   </ngx-charts-bar-vertical>
+ </div> -->
+
+ <!-- <div style="display: block;"> -->
+   <div style="display: block;">
+      <ngx-charts-bar-vertical
+      [view]="view"
+      [scheme]="'cool'"
+      [results]="data"
+      [gradient]="false"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="showLegend"
+      [showXAxisLabel]="true"
+      [showYAxisLabel]="true"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [animations]="animations"
+      [yScaleMax]="1000"  
+      [yScaleMin]="0"
+      [yAxisTicks]="yAxisTicks"
+      [xAxisTicks]="[]"
+      [barPadding]="2">
+      </ngx-charts-bar-vertical>
+    </div>
