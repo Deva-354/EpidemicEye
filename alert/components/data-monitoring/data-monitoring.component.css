@@ -1,0 +1,18 @@
+.data-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #1976d2; /* Vibrant blue for the heading */
+  }
+  
+  p {
+    font-size: 18px;
+    color: #424242; /* Dark gray for text */
+  }
+  
+  strong {
+    color: #d32f2f; /* Vibrant red for labels */
+  }
+  
