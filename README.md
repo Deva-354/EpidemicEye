@@ -1,4 +1,14 @@
-# Project1
+EpidemicEye is a real-time detection software system designed to track and analyze the spread of
+COVID-19 and Influenza in Ontario. Utilizing real-time monitoring, predictive modeling, visualization
+tools and an alert system, our project focuses on increasing public awareness of the spread of
+these contagious diseases by providing timely and accurate data to manage the impact of these
+diseases. By monitoring cases in real-time and through transparent information for the public of
+Ontario, EpidemicEye raises public awareness about the importance of disease prevention
+measures in controlling the spread of COVID-19 and Influenza. Overall, EpidemicEye enables
+early detection of the two infectious diseases, rapid response, and informed decision-making,
+ultimately saving lives and safeguarding public health.
+
+# Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
 
