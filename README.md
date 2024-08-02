@@ -1,5 +1,5 @@
 EpidemicEye is a real-time detection software system designed to track and analyze the spread of
-COVID-19 and Influenza in Ontario. Utilizing real-time monitoring, predictive modeling, visualization
+COVID-19 and Influenza across the globe. Utilizing real-time monitoring, predictive modeling, visualization
 tools and an alert system, our project focuses on increasing public awareness of the spread of
 these contagious diseases by providing timely and accurate data to manage the impact of these
 diseases. By monitoring cases in real-time and through transparent information for the public of
