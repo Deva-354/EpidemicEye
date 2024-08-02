@@ -1,0 +1,116 @@
+
+
+input[type="number"] {
+    width: 90px;
+    padding: 5px; 
+    margin-bottom: 10px; 
+  }
+
+label {
+    margin-bottom: 0px; 
+    font-weight: bold; 
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  
+
+  #casesLabel {
+    color: rgb(238, 210, 0);
+  }
+  
+  #deathsLabel {
+    color: red; 
+  }
+  
+  #recoveriesLabel {
+    color: green; 
+  }
+
+
+
+button {
+    background-color: #6db5c5; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 18px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 20px; 
+    transition: background-color 0.3s; 
+
+  }
+  
+  button:hover {
+    background-color: #466d96; 
+  }
+
+
+  .prediction-text {
+    width: 50%; 
+    max-width: 400px; 
+    height: auto;
+    font-size: 20px; 
+    color: #6d656b; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 60px auto 60px 0%;
+    padding: 10px; 
+    border: 2px solid #6d656b; 
+    border-radius: 5px; 
+    background-color: #f1f1f1; 
+  }
+
+  .user-note {
+    width: 50%; 
+    max-width: 600px; 
+    height: auto;
+    font-size: 14px; 
+    color: #31600a; 
+    
+    text-align: left; 
+    margin: 30px auto 30px 0%;
+    padding: 10px; 
+    border: 2px solid #468b0d; 
+    border-radius: 5px;
+    background-color: #d8feb9; 
+  }
+
+  .MSE {
+    width: 50%; 
+    max-width: 600px;
+    height: auto;
+    font-size: 14px; 
+    color: #9a0505; 
+    text-align: left;
+    margin: 20px auto 30px 0%; 
+    padding: 10px; 
+    border: 2px solid #9a0505; 
+    border-radius: 5px; 
+    background-color: #ffdada; 
+  }
+
+
+  .dropdown-label {
+    font-size: 16px; 
+    color: #333; 
+  }
+  
+  .dropdown-select {
+    width: 7%; 
+    padding: 8px; 
+    border-radius: 4px;
+    border: 1px solid #f2f1f1; 
+    font-size: 16px; 
+  }
+
+  .influenza-container {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff; 
+  }
+
+  .heading {
+    margin-right: auto;
+}

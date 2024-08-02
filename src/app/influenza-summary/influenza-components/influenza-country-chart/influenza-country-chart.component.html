@@ -1,0 +1,23 @@
+<p>Hover over the bars to see number of cases!</p>
+
+   <div style="display: block;">
+      <ngx-charts-bar-vertical
+      [view]="view"
+      [scheme]="'cool'"
+      [results]="data"
+      [gradient]="false"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="showLegend"
+      [showXAxisLabel]="true"
+      [showYAxisLabel]="true"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [animations]="animations"
+      [yScaleMax]="1000"  
+      [yScaleMin]="0"
+      [yAxisTicks]="yAxisTicks"
+      [xAxisTicks]="[]"
+      [barPadding]="2">
+      </ngx-charts-bar-vertical>
+    </div>
